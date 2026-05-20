@@ -1,0 +1,9 @@
+# HTTP response cache — regenerated on every run
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store

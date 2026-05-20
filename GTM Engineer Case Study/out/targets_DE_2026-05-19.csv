@@ -1,0 +1,160 @@
+company,index,industry,sap_jobs_count,score_industry,score_hiring,score_compliance,score_size,score_total,source_urls,snapshot_date
+BASF,DAX,chemicals,0,3,0,3,3,9,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Bayer,DAX,pharmaceuticals,0,3,0,3,3,9,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Merck,DAX,pharmaceuticals,0,3,0,3,3,9,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Symrise,DAX,chemicals,0,3,0,3,3,9,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Airbus,DAX,aerospace & defence,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Allianz,DAX,financial services,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+BMW,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Commerzbank,DAX,financial services,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Continental,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Daimler Truck,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Deutsche Bank,DAX,financial services,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Deutsche Börse,DAX,financial services,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+E.ON,DAX,utilities,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Hannover Re,DAX,insurance,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Mercedes-Benz Group,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+MTU Aero Engines,DAX,aerospace & defence,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Munich Re,DAX,financial services,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Porsche SE,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Redcare Pharmacy,MDAX,pharmacy,0,3,0,3,2,8,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Rheinmetall,DAX,aerospace & defence,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+RWE,DAX,utilities,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Siemens Energy,DAX,energy technology,0,2,0,3,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Volkswagen Group,DAX,automotive,0,3,0,2,3,8,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Dermapharm Holding SE,SDAX,pharmaceuticals,0,3,0,3,1,7,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Deutsche Telekom,DAX,telecommunication,0,2,0,2,3,7,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Encavis,MDAX,renewable energy,0,2,0,3,2,7,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Evotec,SDAX,pharmaceuticals,0,3,0,3,1,7,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Hella,MDAX,automotive,0,3,0,2,2,7,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Hensoldt,MDAX,defence,0,3,0,2,2,7,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Schott Pharma AG & Co. KGaA,SDAX,pharmaceuticals,0,3,0,3,1,7,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Siemens Healthineers,DAX,medical equipment,0,2,0,2,3,7,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Stabilus,MDAX,automotive,0,3,0,2,2,7,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Sto SE & Co. KGaA,SDAX,chemicals,0,3,0,3,1,7,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Carl Zeiss Meditec,MDAX,medical technology,0,2,0,2,2,6,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Deutsche Post,DAX,logistics,0,2,0,1,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Dürr AG,SDAX,automotive,0,3,0,2,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Energiekontor AG,SDAX,renewable energy,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Freenet,MDAX,telecommunications,0,2,0,2,2,6,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Fresenius,DAX,healthcare,0,1,0,2,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Fresenius Medical Care,DAX,healthcare,0,1,0,2,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Fresenius Medical Care,MDAX,medical technology,0,2,0,2,2,6,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+GEA Group,DAX,mechanical engineering,0,3,0,0,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Grenke AG,SDAX,financial services,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Jost Werke AG,SDAX,automotive,0,3,0,2,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Jungheinrich,MDAX,"intralogistics, mechanical engineering",0,3,0,1,2,6,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+MLP,SDAX,financial services,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+PBB AG,SDAX,banking,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+PNE AG,SDAX,wind energy,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+ProCredit,SDAX,banking,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Qiagen,DAX,biotech,0,3,0,0,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Schaeffler AG,SDAX,automotive,0,3,0,2,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+SFC Energy AG,SDAX,energy,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Siemens,DAX,industrials,0,3,0,0,3,6,https://en.wikipedia.org/wiki/DAX,2026-05-19
+SMA Solar,SDAX,solar energy,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+United Internet,MDAX,telecommunications,0,2,0,2,2,6,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Wüstenrot & Württembergische AG,SDAX,financial services,0,2,0,3,1,6,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+1&1 AG,SDAX,telecommunications,0,2,0,2,1,5,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Adtran Networks SE,SDAX,telecommunications equipment,0,2,0,2,1,5,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Aixtron,MDAX,semiconductor industry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Aurubis,MDAX,metals,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Beiersdorf,DAX,consumer goods,0,2,0,0,3,5,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Drägerwerk AG & Co. KGaA,SDAX,"engineering, medical technology",0,2,0,2,1,5,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Eckert & Ziegler Strahlen- und Medizintechnik AG,SDAX,medical equipment,0,2,0,2,1,5,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Evonik,MDAX,chemistry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Evotec,MDAX,biotechnology,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Fuchs Petrolub,MDAX,chemistry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+GEA Group,MDAX,machinery,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Heidelberg Materials,DAX,construction materials,0,2,0,0,3,5,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Henkel,DAX,consumer goods,0,2,0,0,3,5,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Knorr-Bremse,MDAX,manufacturing,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Lanxess,MDAX,chemistry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Rational,MDAX,manufacturing,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Scout24,DAX,e-commerce,0,2,0,0,3,5,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Siltronic,MDAX,semiconductor industry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Stratec SE,SDAX,medical equipment,0,2,0,2,1,5,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Wacker Chemie,MDAX,chemistry,0,3,0,0,2,5,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Zalando,DAX,e-commerce,0,2,0,0,3,5,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Adidas,DAX,apparel,0,1,0,0,3,4,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Brenntag,DAX,distribution,0,1,0,0,3,4,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Deutz AG,SDAX,mechanical engineering,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Heidelberger Druckmaschinen AG,SDAX,machinery,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Hochtief,MDAX,construction,0,2,0,0,2,4,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Infineon Technologies,DAX,technology,0,1,0,0,3,4,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Klöckner & Co SE,SDAX,steel and metal distribution,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+KSB SE & Co. KGaA,SDAX,mechanical engineering,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+KWS Saat SE & Co. KGaA,SDAX,"agriculture, biotechnology",0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Lufthansa,MDAX,airlines,0,2,0,0,2,4,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Norma Group SE,SDAX,machinery,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+PVA TePla AG,SDAX,machinery,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Salzgitter AG,SDAX,iron and steel,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+SAP,DAX,technology,0,1,0,0,3,4,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Südzucker AG,SDAX,food processing,0,2,0,1,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Süss Microtec SE,SDAX,semiconductors,0,3,0,0,1,4,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Vonovia,DAX,real estate,0,1,0,0,3,4,https://en.wikipedia.org/wiki/DAX,2026-05-19
+Aroundtown,MDAX,real estate,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Bechtle,MDAX,it services,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Befesa,MDAX,waste management,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Bilfinger,MDAX,,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+CTS Eventim,MDAX,leisure-events,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Delivery Hero,MDAX,delivery service,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Fraport,MDAX,airport operator,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Gerresheimer,MDAX,packaging,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+HelloFresh,MDAX,meal kit,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Hornbach Holding AG,SDAX,"holding, retail",0,2,0,0,1,3,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Hugo Boss,MDAX,"clothing, accessories",0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Jenoptik,MDAX,,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+K+S,MDAX,mining (fertilizer and salt),0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+KION Group,MDAX,handling equipment,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Krones,MDAX,,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+LEG Immobilien,MDAX,real estate,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Nemetschek,MDAX,software,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Nordex,MDAX,,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Puma,MDAX,sports equipment,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+RTL Group,MDAX,media,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Scout24,MDAX,online-market,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Ströer,MDAX,media,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+TAG Tegernsee Immobilien und Beteiligung,MDAX,real estate,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Talanx,MDAX,real estate,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+TeamViewer,MDAX,software,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+ThyssenKrupp,MDAX,conglomerate,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Traton,MDAX,,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+TUI,MDAX,tourism,0,1,0,0,2,3,https://en.wikipedia.org/wiki/MDAX,2026-05-19
+Wacker Neuson SE,SDAX,construction equipment,0,2,0,0,1,3,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Adesso SE,SDAX,it and consulting,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Alzchem Group,SDAX,,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Amadeus FiRe AG,SDAX,personnel and training services,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Atoss Software AG,SDAX,software,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Befesa,SDAX,hazardous waste,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Borussia Dortmund,SDAX,sports,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Cancom SE,SDAX,it,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Cewe Stiftung & Co. KGaA,SDAX,printing,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Deutsche Beteiligungs AG,SDAX,private equity,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Deutsche Euroshop,SDAX,real estate,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Douglas,SDAX,cosmetics,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Elmos Semiconductor SE,SDAX,electrical engineering,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Formycon,SDAX,,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+GFT Technologies SE,SDAX,software,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Grand City Properties S.A.,SDAX,real estate,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Hamborner Reit AG,SDAX,real estate,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Hypoport SE,SDAX,technology,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Indus Holding AG,SDAX,investment management,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Jenoptik,SDAX,optoelectronics engineering,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Kontron AG,SDAX,computer hardware,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+LPKF Laser Electronics,SDAX,,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+MBB,SDAX,holding,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Medios,SDAX,,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Mutares SE & Co. KGaA,SDAX,holding,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Nagarro SE,SDAX,software,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Patrizia SE,SDAX,real estate,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+ProSiebenSat.1 Media SE,SDAX,media,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+SAF-Holland SE,SDAX,industry,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Secunet Security Networks,SDAX,information security,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Siltronic,SDAX,technology,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Sixt,SDAX,car rental,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Springer Nature,SDAX,academic publishing,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Stabilus,SDAX,technology,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Thyssenkrupp Nucera AG & Co. KGaA,SDAX,engineering,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Verve Group SE,SDAX,technology,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
+Vossloh AG,SDAX,rail infrastructure,0,1,0,0,1,2,https://en.wikipedia.org/wiki/SDAX,2026-05-19
