@@ -1,0 +1,7 @@
+company,first_name,last_name,title,email,linkedin_url,source
+Siemens AG,Klaus,Mueller,CTO Digital Industries,klaus.mueller@siemens.com,https://linkedin.com/in/klausmueller-example,manual
+Bayer AG,Maria,Schneider,Head of SAP Operations,maria.schneider@bayer.com,https://linkedin.com/in/mariaschneider-example,manual
+Krones AG,Stefan,Weber,IT Director,stefan.weber@krones.com,https://linkedin.com/in/stefanweber-example,manual
+Hugo Boss AG,Petra,Klein,IT Compliance Lead,petra.klein@hugoboss.com,https://linkedin.com/in/petraklein-example,manual
+TechFlow GmbH,Jan,Becker,Founder & CTO,jan@techflow.de,https://linkedin.com/in/janbecker-example,manual
+Berliner StartupCo,Lukas,Schmidt,Head of Engineering,lukas@startup.berlin,https://linkedin.com/in/lukasschmidt-example,manual

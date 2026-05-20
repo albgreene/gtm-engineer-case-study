@@ -1,0 +1,7 @@
+company,domain,index,industry,segment,score_total,snapshot_date,source_urls
+Siemens AG,siemens.com,DAX,manufacturing,hiring,11,2026-05-19,https://en.wikipedia.org/wiki/DAX
+Bayer AG,bayer.com,DAX,pharma,regulated,12,2026-05-19,https://en.wikipedia.org/wiki/DAX
+Krones AG,krones.com,MDAX,manufacturing,mid-cap,8,2026-05-19,https://en.wikipedia.org/wiki/MDAX
+Hugo Boss AG,hugoboss.com,SDAX,retail,regulated,7,2026-05-19,https://en.wikipedia.org/wiki/SDAX
+TechFlow GmbH,techflow.de,unlisted,software,hiring,6,2026-05-19,https://de.indeed.com/jobs?q=SAP
+Berliner StartupCo,startup.berlin,unlisted,fintech,regulated,6,2026-05-19,https://de.indeed.com/jobs?q=SAP

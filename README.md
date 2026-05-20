@@ -88,6 +88,44 @@ Die Score-Aufschlüsselung des CSV lässt sich sauber auf die **Segmentierung** 
 
 Drei Kohorten → drei E-Mail-Varianten → 1:1-Abbildung auf die Segmentierungsanforderung des Case Study.
 
+## n8n-Outreach-Workflow (Aufgabe 2)
+
+Companion-Workflow zum Scraper. Er nimmt den Scraper-Output (priorisierte Unternehmen + Kontakte, in Google Sheets gepflegt), routet jeden Kontakt nach Größen-Tier auf E-Mail oder LinkedIn, personalisiert die Copy pro Segment über einen LLM-generierten Opener und protokolliert jeden Versand für Dedup + Audit. Die importierbare Datei liegt unter [`GTM Engineer Case Study/n8n/workflow.json`](./GTM%20Engineer%20Case%20Study/n8n/workflow.json).
+
+### Was der Workflow macht
+
+- **Channel-Routing nach Größen-Tier:** börsennotierte Unternehmen (DAX/MDAX/SDAX) erhalten eine Firmen-E-Mail (Gmail); nicht gelistete KMU/Startups landen in einer manuellen LinkedIn-Queue (Gründer + kleine Teams sind auf LinkedIn erreichbar — Cold-E-Mail an `info@` verpufft).
+- **Copy-Hybrid:** deterministisches Template-Skelett pro Segment + ein LLM-generierter, personalisierter Opener pro Kontakt. 6 Templates insgesamt (3 Segmente × 2 Kanäle), alle inline im Workflow-JSON.
+- **Dedup:** jeder Versand schreibt eine Zeile ins `Activity`-Sheet. Der nächste Lauf filtert alle heraus, deren E-Mail oder LinkedIn-URL dort bereits steht — idempotente Wiederholungen.
+- **Throttle:** 60 Sekunden Wartezeit zwischen Versendungen (Gmail-Zustellbarkeits-Hygiene).
+- **Zwei Trigger:** Manual-Trigger (Demo/Ad-hoc) und Schedule-Trigger (Mo–Fr 09:00 Europe/Berlin) für die laufende Kampagnen-Kadenz.
+- **Keine Mocks:** jeder Node ist ein echter Produktions-Node — Credentials einbinden, „Execute" drücken.
+
+### In n8n importieren
+
+**Voraussetzungen**
+
+| Was | Wofür |
+|---|---|
+| n8n (Cloud oder self-hosted) | Ausführungsumgebung |
+| Google Sheet „KGS Outreach" mit 4 Tabs: `Accounts`, `Contacts`, `Outbox_LinkedIn`, `Activity` | Daten-Backbone (Targets, Kontakte, LinkedIn-Queue, Audit-Log) |
+| Credential `Google Sheets OAuth2` | Sheet lesen/schreiben |
+| Credential `Gmail OAuth2` | E-Mail-Versand |
+| Credential `OpenAI API` | LLM-Opener-Generierung |
+| Umgebungsvariable `KGS_SHEET_ID` | ID des Google Sheets (der lange String zwischen `/d/` und `/edit` in der Sheet-URL) |
+
+**Schritte**
+
+1. **Importieren:**
+   - **n8n Cloud:** Workflows → *Import from File* → `GTM Engineer Case Study/n8n/workflow.json` auswählen.
+   - **Self-hosted (CLI):** `n8n import:workflow --input="GTM Engineer Case Study/n8n/workflow.json"`
+2. **Credentials binden:** Nach dem Import zeigen die Gmail-, Google-Sheets- und OpenAI-Nodes rote Badges (die Platzhalter-IDs `REPLACE_WITH_YOUR_..._CRED`). Jeden Node anklicken, an die eigenen Credentials binden, **Save**.
+3. **`KGS_SHEET_ID` setzen:** self-hosted in der `.env`-Datei; n8n Cloud unter Settings → Variables.
+4. **Testdaten laden (optional):** `sample-accounts.csv` und `sample-contacts.csv` (im selben Ordner) in die Tabs `Accounts` bzw. `Contacts` importieren — so lässt sich der Workflow ohne Scraper-Lauf testen.
+5. **Ausführen:** Manual-Trigger starten. Mit den Sample-Daten erwartbar: 4 E-Mails via Gmail, 2 Zeilen in `Outbox_LinkedIn`, 6 Zeilen in `Activity`. Zweiter Lauf → 0 neue Zeilen (Dedup funktioniert).
+
+> Der Workflow steht beim Import auf `active: false` und versendet erst nach manuellem Start bzw. Aktivierung des Schedule-Triggers — kein versehentlicher Versand beim Import.
+
 ## Projektstruktur
 
 ```
@@ -95,7 +133,11 @@ gtm-engineer-case-study/      (Repository-Wurzel)
 ├── README.md                 # diese deutsche Übersicht (GitHub-Startseite)
 └── GTM Engineer Case Study/
     ├── scrape.py             # gesamte Pipeline, eine Datei, ~280 Zeilen
-    ├── README.md             # englische Fassung
+    ├── README.md             # englische Fassung (Scraper)
     ├── cache/                # HTTP-Response-Cache (sha256(url).html)
-    └── out/                  # CSVs, eine pro Lauf-Datum
+    ├── out/                  # CSVs, eine pro Lauf-Datum
+    └── n8n/                  # Outreach-Automatisierung (Aufgabe 2)
+        ├── workflow.json     # importierbarer n8n-Workflow
+        ├── sample-accounts.csv
+        └── sample-contacts.csv
 ```
